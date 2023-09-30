@@ -31,8 +31,14 @@ poetry update
 poetry shell
 ```
 
-### poetryでファイル実行
+### 仮想環境の終了
 
 ```
-poetry run python main.py 
+deactivated
+```
+
+### 仮想環境内のpoetryでファイル実行
+
+```
+python3 main.py 
 ```
