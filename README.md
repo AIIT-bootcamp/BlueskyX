@@ -42,3 +42,7 @@ deactivated
 ```
 python3 main.py 
 ```
+
+### デプロイ用Dockerfile
+
+hackathon1/Dockerfile
