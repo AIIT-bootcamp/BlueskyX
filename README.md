@@ -6,7 +6,7 @@
 
 # ローカルでの動作の手順
 
-以下カレントディレクトリがbootcamp23summer-hackathon-1/hackathon_1の状態
+以下カレントディレクトリがBlueskyX/hackathon_1の状態
 
 1. poetryでパッケージのインストール
 1. poetryで既存の設定を反映
