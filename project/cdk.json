@@ -1,0 +1,7 @@
+{
+  "app": "ts-node --prefer-ts-exts bin/project.ts",
+  "context": {
+    "systemName": "blueskyx",
+    "envType": "dev"
+  }
+}

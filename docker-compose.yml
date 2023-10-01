@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  cdk-blueskyx:
+    build: ./aws-cdk-client
+    container_name: cdk-blueskyx
+    image: cdk-blueskyx
+    volumes:
+      - ./project:/project
+      - ./project/.aws/:/root/.aws/
+      - ./project/.env:/root/.bashrc
+    ports:
+      - 28041-28050:28041-28050
