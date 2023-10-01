@@ -32,7 +32,7 @@ def post_bluesky(message):
 ################################
 def lambda_handler(event, context):
 # if __name__ == "__main__":
-    # TODO: メッセージを受け取れるようにする
-    tweet = 'Hello from Lambda!'
+    tweet = event['message']
+    # tweet = 'Hello World!'
     load_dotenv()
     main_func(tweet)
