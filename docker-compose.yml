@@ -9,5 +9,6 @@ services:
       - ./project:/project
       - ./project/.aws/:/root/.aws/
       - ./project/.env:/root/.bashrc
+      - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - 28041-28050:28041-28050

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hackathon-1"
+version = "0.1.0"
+description = ""
+authors = ["yellow-seed <42381113+yellow-seed@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+tweepy = "^4.14.0"
+python-dotenv = "^1.0.0"
+boto3 = "^1.28.57"
+atproto = "^0.0.29"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

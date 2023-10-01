@@ -15,6 +15,8 @@ RUN apt-get update \
        npm \
     && apt-get clean
 
+RUN apt-get install -y docker.io docker-compose
+
 RUN npm install n -g
 RUN n 18.16.0
 
